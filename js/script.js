@@ -41,12 +41,12 @@ for (var i = 0; i < rowsS; i++) {
   }
 }
 
-for (var i = 0; i < rowsL.length; i++) {
-  this.addEventListener("click", function() {
-      console.log('iypi');
-
+    thL.addEventListener("click", function() {
+        for (var i = 0; i < rowsL.length; i++) {
+        var cell = this.innerText;
+        console.log(cell.indexOf("trL"));
+    }
     })
-  }
 
 function search(columns) {
   for (var i = 0; i < 6; i++) {
