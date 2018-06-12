@@ -1,0 +1,14 @@
+th {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+table {
+  margin: 10%;
+  margin-left: 25%;
+}
+
+#lauch th{
+  border: 1px solid red;
+}
