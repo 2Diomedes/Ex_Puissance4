@@ -3,7 +3,6 @@ var columnsS = 7;
 
 var rows = [];
 var rowsL = [];
-var launch = [];
 
 var launcher = document.createElement('table');
 document.body.appendChild(launcher);
@@ -41,18 +40,19 @@ for (var i = 0; i < rowsS; i++) {
   }
 }
 
-    thL.addEventListener("click", function() {
-        for (var i = 0; i < rowsL.length; i++) {
-        var cell = this.innerText;
-        console.log(cell.indexOf("trL"));
-    }
-    })
+// for (var i = 0; i < rows.length; i++) {
+//   cell = rows[i];
+//   cell.addEventListener('click', function(){
+//     console.log(cell);
+//   })
+// }
 
-function search(columns) {
-  for (var i = 0; i < 6; i++) {
-    console.log(columns + '>>' + i);
-    if (rows[i][columns] != 0) {
-      return i - 1;
-    }
-  }
-}
+
+// function search(columns) {
+//   for (var i = 0; i < 6; i++) {
+//     console.log(columns + '>>' + i);
+//     if (rows[i][columns] != 0) {
+//       return i - 1;
+//     }
+//   }
+// }
