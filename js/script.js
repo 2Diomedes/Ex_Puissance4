@@ -44,6 +44,14 @@ for (var i = 0; i < rowsS; i++) {
   }
 
 }
+for (var i = 0; i < launcher.length; i++) {
 
+    this.addEventListener("click", function(){
+        var tableRef = launcher[i];
+        for (var i = 0; i < table.length; i++) {
+            table[i]
+        }
+    })
+}
 
 // console.log(columns);
